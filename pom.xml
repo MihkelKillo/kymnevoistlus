@@ -6,13 +6,14 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.5.2</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath/>
 	</parent>
 	<groupId>killo.kymnevoistlus</groupId>
 	<artifactId>kymnevoistlus</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.1.0</version>
 	<name>kymnevoistlus</name>
 	<description>Proovitöö kümnevõistluse API</description>
+
 	<properties>
 		<java.version>11</java.version>
 	</properties>
