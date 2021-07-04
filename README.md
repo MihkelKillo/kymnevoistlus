@@ -1,7 +1,7 @@
 Lihtne REST API kümnevõistluse punktide arvutamiseks.
 
 
-Jookustamiseks valik kas IDE enda tööriistad, käsurealt 'mvn clean package' ja 'java -jar target/kymnevoistlus-0.1.0.jar' või Dockeriga käivitamine.
+Jookustamiseks valik kas IDE enda tööriistad, juurkausta käsurealt 'mvn clean package' ja 'java -jar target/kymnevoistlus-0.1.0.jar' või Dockeriga käivitamine.
 
 Dockeri jaoks käsud:
 
