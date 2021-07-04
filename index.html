@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kümnevõistluse punktide kalkulaator</title>
+</head>
+<body>
+  <div id="app">
+    <h1>Kümnevõistluse punktide kalkulaator</h1>
+    <ul>
+      <ala-component
+        v-for="ala in alad"
+        v-bind:alaProp="ala"
+        v-bind:key="ala.id"
+      ></ala-component>
+    </ul>
+    <p>Punkte kokku: {{ skoorKokku }}</p>
+    <button v-on:click="arvutaSkoor">Arvuta skoor</button>
+  </div>
+  
+  <script src="https://unpkg.com/vue"></script>
+  <script src="main.js"></script>
+</body>
+</html>
